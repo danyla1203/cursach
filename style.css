@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+#navigation-container {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 70px;
+  justify-content: end;
+  padding-right: 50px;
+  align-items: center;
+  background-color: rgb(145, 151, 254);
+}
+#navigation-container a .navigation-item {
+  margin-right: 20px;
+  margin-left: 20px;
+  font: 15px sans-serif;
+  color: black
+}
+#navigation-container h2 {
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+main #content {
+  background-color: rgb(62, 66, 128);
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 70px);
+}
+main #content #map {
+  width: 86%;
+  background-color: rgb(218, 220, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #content #text {
+  width: 86%;
+  background-color: rgb(218, 220, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main #content #text p {
+  letter-spacing: 0.5px;
+  font: 17px sans-serif;
+  width: 65%;
+}
+
+main #content #map iframe {
+  margin-top: 10px;
+}
